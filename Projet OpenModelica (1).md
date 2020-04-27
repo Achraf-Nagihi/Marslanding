@@ -133,7 +133,7 @@ end MarsLanding;
 
 ### C-Étude paramétrique
 
-![](media/d7677ddd847ba719186f35be0cf0bce2.png)
+![](media/https://drive.google.com/open?id=1O-cMrdF-8jB8pz29e40YelPIL6tGXmsw.png)
 
 En premier lieu on a créé un script pour faire plusieurs simulations en même
 temps, le script va faire un balayage des paramètres (parameter sweep),
