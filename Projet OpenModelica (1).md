@@ -244,7 +244,7 @@ End Sub
 
 ### D-Résultats de l'étude paramétrique :
 
-[CHART]On présente Les résultats des intervalles suivants : force
+On présente Les résultats des intervalles suivants : force
 1[37800,37900], avec un pas de 5, et la force2[2200 ,2300] avec un pas de 5. On
 a filtré sur Curiosity.altitude pour afficher seulement les tests où la rocket à
 toucher mars.
@@ -315,6 +315,11 @@ l'objectif est de modifier le modèle Exemple2 pour ajouter une quatrième pipe
 
 ### Références :
 
-[https://www.openmodelica.org/ https://en.wikipedia.org/wiki/OpenModelica
-https://en.wikipedia.org/wiki/Modelica https://en.wikipedia.org/wiki/Mars
-https://openmodelica.org/images/docs/tutorials/modelicatutorialfritzson.pdf](https://www.openmodelica.org/%20https://en.wikipedia.org/wiki/OpenModelica%20https://en.wikipedia.org/wiki/Modelica%20https://en.wikipedia.org/wiki/Mars%20https://openmodelica.org/images/docs/tutorials/modelicatutorialfritzson.pdf)
+[https://www.openmodelica.org/ https://en.wikipedia.org/wiki/OpenModelica](https://www.openmodelica.org/ https://en.wikipedia.org/wiki/OpenModelica)
+
+[https://en.wikipedia.org/wiki/Modelica https://en.wikipedia.org/wiki/Mars](https://en.wikipedia.org/wiki/Modelica https://en.wikipedia.org/wiki/Mars)
+
+[https://openmodelica.org/images/docs/tutorials/modelicatutorialfritzson.pdf](https://openmodelica.org/images/docs/tutorials/modelicatutorialfritzson.pdf)
+
+[https://www.openmodelica.org](https://www.openmodelica.org)
+
