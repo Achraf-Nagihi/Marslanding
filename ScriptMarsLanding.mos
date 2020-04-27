@@ -1,0 +1,21 @@
+cd();
+loadModel(Modelica);
+getErrorString();
+loadFile("Body.mo");
+getErrorString();
+loadFile("CelestialBody.mo");
+getErrorString();
+loadFile("Rocket.mo");
+getErrorString();
+loadFile("MarsLanding.mo");
+getErrorString();
+buildModel(MarsLanding,stopTime=230,outputFormat="csv");
+getErrorString();
+for j in 0:49 loop
+force1 := 36000+ j*50;
+for i in 1:50 loop
+  force2 := 1000 + i*50;
+  system("MarsLanding -override=force2="+String(force2)+",force1="+String(force1)+" -r=MarsLanding" +String(i+j*50) + "_res.csv");
+  getErrorString();
+end for;
+end for;
