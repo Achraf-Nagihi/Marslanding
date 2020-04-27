@@ -315,9 +315,13 @@ l'objectif est de modifier le modèle Exemple2 pour ajouter une quatrième pipe
 
 ### Références :
 
-[https://www.openmodelica.org/ https://en.wikipedia.org/wiki/OpenModelica](https://www.openmodelica.org/ https://en.wikipedia.org/wiki/OpenModelica)
+[https://www.openmodelica.org](https://www.openmodelica.org/)
 
-[https://en.wikipedia.org/wiki/Modelica https://en.wikipedia.org/wiki/Mars](https://en.wikipedia.org/wiki/Modelica https://en.wikipedia.org/wiki/Mars)
+[https://en.wikipedia.org/wiki/OpenModelica](https://en.wikipedia.org/wiki/OpenModelica)
+
+[https://en.wikipedia.org/wiki/Mars]( https://en.wikipedia.org/wiki/Mars)
+
+[https://en.wikipedia.org/wiki/Modelica](https://en.wikipedia.org/wiki/Modelica)
 
 [https://openmodelica.org/images/docs/tutorials/modelicatutorialfritzson.pdf](https://openmodelica.org/images/docs/tutorials/modelicatutorialfritzson.pdf)
 
