@@ -139,9 +139,10 @@ temps, le script va faire un balayage des paramètres (parameter sweep),
 c'est-à-dire mettre à jour les paramètres **(force1,force2)** et et relancer la
 simulation sans compiler le modèle,et enregistrer les résultats dans différents
 fichiers .csv.
-[https://drive.google.com/open?id=1O-cMrdF-8jB8pz29e40YelPIL6tGXmsw](https://drive.google.com/open?id=1O-cMrdF-8jB8pz29e40YelPIL6tGXmsw)
-*Figure 1: Exemple d'une base de données contenant les résultats d'une
-simulation*
+
+[Exemple d'une base de données contenant les résultats d'une
+simulation](https://drive.google.com/open?id=1O-cMrdF-8jB8pz29e40YelPIL6tGXmsw)
+
 
 Le script est créé dans un Bloc-note avec l'extension .mos (ouvert avec OMC un
 compilateur de OpenModelica)
@@ -248,14 +249,16 @@ End Sub
 a filtré sur Curiosity.altitude pour afficher seulement les tests où la rocket à
 toucher mars.
 
+[Résultats de l'étude paramétrique](https://drive.google.com/open?id=1QFzvrT8-mpddHnw_sOQzsqXI0AmObBQT)
+
 Donc la force2 idéale pour un atterrissage réussi est ( **2250** ) qui
 correspond à la force 1 ( **37845** ).
 
 ### E-Vérification du couple (2250, 37845) sur OMEdit :
 
-### [./media/image2.jpeg](./media/image2.jpeg)
+[Vérification du couple (2250, 37845) sur OMEdit](https://drive.google.com/open?id=1QFzvrT8-mpddHnw_sOQzsqXI0AmObBQT)
 
-F-Conclusion :
+### F-Conclusion :
 
 Dans ce rapport, l'étude paramétrique devrait faire l'objet d'un problème
 d'optimisation, on a donc d'abord essayé d'utiliser l'outil OMOptim
@@ -271,9 +274,9 @@ III-Exemple 2 : FluidExample
 l'objectif est de modifier le modèle Exemple2 pour ajouter une quatrième pipe
 (pipe4) reliant la sortie de Pipe1 à boundary2.
 
-![](media/8f7b204245bbbf735da5413fda6a56b7.png)
-
 **2-Modèle Exemple 2 (après la modification)**
+
+[Modèle Exemple 2 (après la modification)](https://drive.google.com/open?id=1ezVKFBAsBvI3q2mHp3AtWuR0V3GHbxT7)
 
 ### 3-Tests de validation
 
@@ -289,21 +292,22 @@ l'objectif est de modifier le modèle Exemple2 pour ajouter une quatrième pipe
 | **Nom**                        | Default                                          | Description                       |
 | **replaceable package Medium** | Modelica.Media.Water.ConstantPropertyLiquidWater | Water: Simple liquid water medium |
 
-#### [./media/image4.png](./media/image4.png)
 
-a-Pressure port-a :
+**a-Pressure port-a :**
 
-![](media/e255138a5c5f8b798fc8aa633af7ea68.png)
+[a-Pressure port-a ](https://drive.google.com/open?id=1p5vsZ_qOcJPvewsVQZjYZ-SPgjr04qF1)
 
 **b-Pressure port-b :**
 
-![](media/974dcbf4bd5bc00dd6dc340b8cceb429.png)
+[Pressure port-b](https://drive.google.com/open?id=1PnuogPNEVweTJexbKef_vb6cF3QKdspu)
 
 **c-Mass-flow port-a**
 
-![](media/2785a93d01e5d724f4cde6fc9a55028b.png)
+[Mass-flow port-a](https://drive.google.com/open?id=1-QkhNQaxVyMzOu4FPtFyag7-L9Db87JJ)
 
 **d-Mass-flow port-b :**
+
+[Mass-flow port-b](https://drive.google.com/open?id=1w66fQWHnLWALqV9coidA9lvqIkV8Fmmo)
 
 ### 4-Conclusion :
 
