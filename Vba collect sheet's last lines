@@ -1,0 +1,22 @@
+Sub CopierLaDerniereLigne()
+    Dim arr()   As Variant
+    Dim ws      As Worksheet
+    Dim wMast   As Worksheet
+    Dim x       As Long
+    Dim y       As Long
+    Set wMast = Sheets("data")
+    Application.ScreenUpdating = False
+    For Each ws In ActiveWorkbook.Worksheets
+        With ws
+            If .Name <> wMast.Name Then
+            x = .Cells(.Rows.Count, 1).End(xlUp).Row
+            y = .Cells(x, .Columns.Count).End(xlToLeft).Column
+            arr = .Cells(x, 1).Resize(, y).Value
+            wMast.Cells(Rows.Count, 1).End(xlUp).Offset(1).Resize(, UBound(arr, 2)).Value = arr
+            Erase arr
+            End If
+        End With
+    Next ws
+    Application.ScreenUpdating = True 
+    Set wMast = Nothing
+End Sub
