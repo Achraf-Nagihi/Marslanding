@@ -1,5 +1,5 @@
 model MarsLanding
-parameter Real force1 = 36350;
+parameter Real force1 = 37845;
 parameter Real force2 = 2250;
 parameter Real thrustEndTime = 210;
 parameter Real thrustDecreaseTime = 43.2;
@@ -14,6 +14,6 @@ else 0;
 curiosity.thrust2=force1*1;
 curiosity.gravity = mars.g*mars.mass /(curiosity.altitude+mars.radius)^2;
 when (curiosity.altitude < 0 or curiosity.altitude >59405 ) then // termination condition
-terminate("The moon lander touches the ground of the moon");
+terminate("Curiosity lander touches the ground of Mars");
 end when;
 end MarsLanding;
