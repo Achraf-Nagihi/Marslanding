@@ -66,6 +66,7 @@ altitude' = velocity
 velocity' = acceleration
 
 **c-La force du champ de force gravitationnelle :**
+
 gravity=(G.mars\*mass.mars)/(altitude.curiosity+radius.mars)\^2
 
 ###  B-Partie code 
