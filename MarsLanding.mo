@@ -11,7 +11,6 @@ equation
 curiosity.thrust = if (time<thrustDecreaseTime) then force1
 else if (time<thrustEndTime) then force2
 else 0;
-curiosity.thrust2=force1*1;
 curiosity.gravity = mars.g*mars.mass /(curiosity.altitude+mars.radius)^2;
 when (curiosity.altitude < 0 or curiosity.altitude >59405 ) then // termination condition
 terminate("Curiosity lander touches the ground of Mars");
