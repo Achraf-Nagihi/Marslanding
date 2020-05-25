@@ -6,11 +6,9 @@ Real velocity(start= -2003);
 Real acceleration;
 Real thrust;
 Real gravity;
-Real thrust2;
 equation
 thrust - mass * gravity = mass * acceleration;
 der(mass) = -massLossRate * abs(thrust);
-
 der(altitude) = velocity;
 der(velocity) = acceleration;
 end Rocket;
